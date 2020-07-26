@@ -22,8 +22,9 @@ class Song
   def self.genres
     @@genres.uniq
   end
-  def genre_count
-    @@genres.each do |k, v|
-      if k.include?
+  def self.genre_count
+    
+  end
+  def self.artist_count
   end
 end 
