@@ -27,7 +27,7 @@ class Song
       if k.uniq 
         k +=1
       else 
-        
+      end  
   end
   def self.artist_count
     
