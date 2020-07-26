@@ -23,7 +23,10 @@ class Song
     @@genres.uniq!
   end
   def self.genre_count
-    @@genres
+    @@genres.each do |k, v|
+      if k.uniq 
+        k +=1
+      else 
   end
   def self.artist_count
     
